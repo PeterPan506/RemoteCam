@@ -134,8 +134,6 @@ public class CmdChannelWIFI extends CmdChannel {
         try {
             if (mInputStream != null) {
                 int size = mInputStream.read(mBuffer,0,32);
-                //mInputStream.read(mBuffer,0,32);
-                //Log.e(TAG, size + "包头");
                 return new String(mBuffer, 0, 32);//包头固定长度32字节
             }
         } catch (IOException e) {
@@ -148,9 +146,7 @@ public class CmdChannelWIFI extends CmdChannel {
     protected String readFromChannel(int size) {
         try {
             if (mInputStream != null) {
-                //int len_body = mInputStream.read(mBuffer);
                 int len_body = mInputStream.read(mBuffer, 0, size);
-                //Log.e(TAG, len_body+"数据");
                 return new String(mBuffer, 0, len_body);
             }
         } catch (IOException e) {
