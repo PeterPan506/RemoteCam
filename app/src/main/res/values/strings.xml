@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="player_extra_file_name">file_name</string>
+    <string name="app_name">RemoteCam</string>
+    <string name="choose_file">Choose File</string>
+    <string name="title_module_detail">Module Detail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bt_connect_error">Failed to connect to Bluetooth Device \"%s\"</string>
+    <string name="wifi_connect_error">Failed to connect to \"%1$s:%2$d\", please check you WIFI settings</string>
+    <string name="command_not_supported_error">Command \"%s\" is not supported yet!</string>
+    <string name="invalid_session_error">SessionID is invalid, please start a session first!</string>
+    <string name="invalid_connect_error">The selected connectivity type is not supported"</string>
+    <string name="title_activity_stream_player">StreamPlayerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="clock_ic">时钟</string>
+    <string name="split_ic">剪切</string>
+    <string name="take_photo_ic">拍照</string>
+    <string name="start_stream_ic">打开流</string>
+    <string name="stop_stream_ic">关闭流</string>
+    <string name="stop_record_ic">关闭录像</string>
+    <string name="start_record_ic">打开录像</string>
+    <string name="set_mic_ic">录音开关</string>
+    <string name="sync_time_ic">时间同步</string>
+
+</resources>

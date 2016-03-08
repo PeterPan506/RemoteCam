@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_dentry_delete"
+        android:title="Delete"/>
+
+    <item android:id="@+id/item_dentry_download"
+        android:title="Download"/>
+
+    <item android:id="@+id/item_dentry_view"
+        android:title="View"/>
+
+    <item android:id="@+id/item_dentry_info"
+        android:title="Info"/>
+
+    <item android:id="@+id/item_dentry_thumb"
+        android:title="Get Thumb"/>
+
+    <item android:id="@+id/item_dentry_burning_fw"
+        android:title="Burn Firmware"/>
+
+    <item android:id="@+id/item_dentry_set_WR"
+        android:title="Set Writable"/>
+
+    <item android:id="@+id/item_dentry_set_RO"
+        android:title="Set ReadOnly"/>
+
+</menu>

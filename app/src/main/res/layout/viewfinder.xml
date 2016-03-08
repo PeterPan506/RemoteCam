@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ambarella.streamview.AmbaStreamView
+        android:id="@+id/videoViewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewZoomInfo"
+            android:src="@drawable/ic_zoom_info"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical" />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarZoom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:progressDrawable="@drawable/progress_bar_zoom"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/imageViewPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_shutter_start"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical|bottom" />
+
+    </LinearLayout>
+
+</RelativeLayout>

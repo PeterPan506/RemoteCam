@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ambarella.remotecam.fragment.CameraFragment" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/viewfinder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/imageViewStopVF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="@string/stop_stream_ic"
+            android:drawableTop="@drawable/ic_streaming_stop"/>
+
+        <!--ImageView
+            android:id="@+id/imageViewStopPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_photo_stop" /-->
+
+        <TextView
+            android:id="@+id/imageViewStopRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/stop_record_ic"
+            android:drawableTop="@drawable/ic_record_stop"/>
+
+        <TextView
+            android:id="@+id/imageViewStartPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/take_photo_ic"
+            android:drawableTop="@drawable/ic_photo_start"/>
+
+        <TextView
+            android:id="@+id/imageViewStartMic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/set_mic_ic"
+            android:drawableTop="@drawable/ic_mic_on"/>
+
+        <TextView
+            android:id="@+id/imageViewSyncTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/sync_time_ic"
+            android:drawableTop="@drawable/ic_sync"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/imageViewStartVF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="@string/start_stream_ic"
+            android:drawableTop="@drawable/ic_streaming_start"/>
+
+        <TextView
+            android:id="@+id/imageViewStartRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/start_record_ic"
+            android:drawableTop="@drawable/ic_record_start"/>
+
+
+        <TextView
+            android:id="@+id/imageViewForceSplit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/split_ic"
+            android:drawableTop="@drawable/ic_split"/>
+
+        <TextView
+            android:id="@+id/imageViewClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/clock_ic"
+            android:drawableTop="@drawable/ic_clock"/>
+
+        <TextView
+            android:id="@+id/textViewRecordTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/itemBatteryLevel" 
+        android:icon="@drawable/ic_battery" 
+        android:showAsAction="always" 
+        android:title="Battery">
+    </item>
+    
+    <item 
+        android:id="@+id/itemDevInfo" 
+        android:icon="@drawable/ic_info" 
+        android:showAsAction="always" 
+        android:title="Info">
+    </item>
+    
+</menu>

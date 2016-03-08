@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/itemParentDir" 
+        android:icon="@drawable/ic_parent_dir" 
+        android:showAsAction="always" 
+        android:title="Up">
+    </item>
+    
+    <item 
+        android:id="@+id/itemMediaRefresh" 
+        android:icon="@drawable/ic_refresh" 
+        android:showAsAction="always" 
+        android:title="Refresh">
+    </item>
+    
+    <item 
+        android:id="@+id/itemUpload" 
+        android:icon="@drawable/ic_upload" 
+        android:showAsAction="always" 
+        android:title="Upload">
+    </item>
+    
+    <item 
+        android:id="@+id/itemFormatSD" 
+        android:icon="@drawable/ic_format_sd" 
+        android:showAsAction="always" 
+        android:title="Format">
+	</item>    
+    
+</menu>

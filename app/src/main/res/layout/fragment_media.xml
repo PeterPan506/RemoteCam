@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+ 
+    <TextView
+        android:id="@+id/textViewDentryPath"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="#FF0000FF"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textViewDentryEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:autoText="true" />
+
+        <ListView
+            android:id="@+id/listViewDentryName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+	</FrameLayout>
+
+</LinearLayout>
